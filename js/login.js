@@ -16,10 +16,10 @@
   // donot verify email password on the client side
   //step-4: verify email and password and check wether valid user or not
   if(email === 'sontan@baap.com' && password === 'secret'){
-    console.log('valid user')
+    window.location.href = 'bank.html';
   }
   else{
-    console.log('invalid user');
+    alert('invalid email or password please chack your email or password')
   }
   
 
